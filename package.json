@@ -1,6 +1,7 @@
 {
   "name": "react-native-refresh",
   "version": "1.0.0",
+  "description": "TODO",
   "deprecated": false,
   "files": [
     "android",
