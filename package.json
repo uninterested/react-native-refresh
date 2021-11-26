@@ -1,0 +1,34 @@
+{
+  "name": "react-native-refresh",
+  "version": "1.0.0",
+  "deprecated": false,
+  "files": [
+    "android",
+    "!android/build",
+    "!android/bin",
+    "!android/react-native-refresh.iml",
+    "!android/.project",
+    "!android/.settings",
+    "!android/.gradle",
+    "ios",
+    "!ios/build",
+    "src",
+    "RNRefresh.podspec"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.10.0",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591CBE20231CA21000FBB197 /* RCTRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 591CBE19231CA20F00FBB197 /* RCTRefreshHeader.m */; };
+		591CBE21231CA21000FBB197 /* RCTRefreshHeaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 591CBE1B231CA20F00FBB197 /* RCTRefreshHeaderManager.m */; };
+		591CBE22231CA21000FBB197 /* RCTRefreshLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 591CBE1C231CA20F00FBB197 /* RCTRefreshLayout.m */; };
+		591CBE23231CA21000FBB197 /* RCTRefreshLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 591CBE1D231CA21000FBB197 /* RCTRefreshLayoutManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		591CBE0A231CA1E000FBB197 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		591CBE0C231CA1E000FBB197 /* libRNRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		591CBE18231CA20F00FBB197 /* RCTRefreshLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTRefreshLayout.h; sourceTree = "<group>"; };
+		591CBE19231CA20F00FBB197 /* RCTRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshHeader.m; sourceTree = "<group>"; };
+		591CBE1A231CA20F00FBB197 /* RCTRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTRefreshHeader.h; sourceTree = "<group>"; };
+		591CBE1B231CA20F00FBB197 /* RCTRefreshHeaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshHeaderManager.m; sourceTree = "<group>"; };
+		591CBE1C231CA20F00FBB197 /* RCTRefreshLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshLayout.m; sourceTree = "<group>"; };
+		591CBE1D231CA21000FBB197 /* RCTRefreshLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTRefreshLayoutManager.m; sourceTree = "<group>"; };
+		591CBE1E231CA21000FBB197 /* RCTRefreshHeaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTRefreshHeaderManager.h; sourceTree = "<group>"; };
+		591CBE1F231CA21000FBB197 /* RCTRefreshLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTRefreshLayoutManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591CBE09231CA1E000FBB197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591CBE03231CA1E000FBB197 = {
+			isa = PBXGroup;
+			children = (
+				591CBE0E231CA1E000FBB197 /* RNRefresh */,
+				591CBE0D231CA1E000FBB197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591CBE0D231CA1E000FBB197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591CBE0C231CA1E000FBB197 /* libRNRefresh.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591CBE0E231CA1E000FBB197 /* RNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				591CBE1A231CA20F00FBB197 /* RCTRefreshHeader.h */,
+				591CBE19231CA20F00FBB197 /* RCTRefreshHeader.m */,
+				591CBE1E231CA21000FBB197 /* RCTRefreshHeaderManager.h */,
+				591CBE1B231CA20F00FBB197 /* RCTRefreshHeaderManager.m */,
+				591CBE18231CA20F00FBB197 /* RCTRefreshLayout.h */,
+				591CBE1C231CA20F00FBB197 /* RCTRefreshLayout.m */,
+				591CBE1F231CA21000FBB197 /* RCTRefreshLayoutManager.h */,
+				591CBE1D231CA21000FBB197 /* RCTRefreshLayoutManager.m */,
+			);
+			path = RNRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591CBE0B231CA1E000FBB197 /* RNRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591CBE15231CA1E000FBB197 /* Build configuration list for PBXNativeTarget "RNRefresh" */;
+			buildPhases = (
+				591CBE08231CA1E000FBB197 /* Sources */,
+				591CBE09231CA1E000FBB197 /* Frameworks */,
+				591CBE0A231CA1E000FBB197 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNRefresh;
+			productName = RNRefresh;
+			productReference = 591CBE0C231CA1E000FBB197 /* libRNRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591CBE04231CA1E000FBB197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = NOTHING;
+				TargetAttributes = {
+					591CBE0B231CA1E000FBB197 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 591CBE07231CA1E000FBB197 /* Build configuration list for PBXProject "RNRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591CBE03231CA1E000FBB197;
+			productRefGroup = 591CBE0D231CA1E000FBB197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591CBE0B231CA1E000FBB197 /* RNRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591CBE08231CA1E000FBB197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591CBE23231CA21000FBB197 /* RCTRefreshLayoutManager.m in Sources */,
+				591CBE20231CA21000FBB197 /* RCTRefreshHeader.m in Sources */,
+				591CBE21231CA21000FBB197 /* RCTRefreshHeaderManager.m in Sources */,
+				591CBE22231CA21000FBB197 /* RCTRefreshLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		591CBE13231CA1E000FBB197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		591CBE14231CA1E000FBB197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591CBE16231CA1E000FBB197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591CBE17231CA1E000FBB197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591CBE07231CA1E000FBB197 /* Build configuration list for PBXProject "RNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591CBE13231CA1E000FBB197 /* Debug */,
+				591CBE14231CA1E000FBB197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591CBE15231CA1E000FBB197 /* Build configuration list for PBXNativeTarget "RNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591CBE16231CA1E000FBB197 /* Debug */,
+				591CBE17231CA1E000FBB197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591CBE04231CA1E000FBB197 /* Project object */;
+}
