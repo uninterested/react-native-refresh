@@ -16,6 +16,11 @@
     "src",
     "RNRefresh.podspec"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uninterested/react-native-refresh.git",
+    "baseUrl": "https://github.com/uninterested/react-native-refresh"
+  },
   "license": "MIT",
   "main": "src/index.js",
   "types": "src/index.d.ts",
