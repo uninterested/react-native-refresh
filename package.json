@@ -16,6 +16,10 @@
     "src",
     "RNRefresh.podspec"
   ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uninterested/react-native-refresh.git",
