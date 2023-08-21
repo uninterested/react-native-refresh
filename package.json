@@ -29,6 +29,7 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "devDependencies": {
+    "deprecated-react-native-prop-types": "^4.2.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.15.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
