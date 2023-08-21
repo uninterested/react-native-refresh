@@ -2,9 +2,9 @@
 import React, { useMemo } from 'react';
 import {
   StyleSheet,
-  ViewPropTypes,
   requireNativeComponent,
 } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 
 function RefreshHeader(props) {
   const { children, style } = props;
