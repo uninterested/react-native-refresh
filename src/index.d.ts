@@ -30,8 +30,8 @@ export interface RefreshLayoutProps {
   onChangeOffset?: (event: Event) => void;
 }
 
-export const RefreshHeader: React.ComponentClass<RefreshHeaderProps>;
+export const RefreshHeader: React.ComponentClass<PropsWithChildren<RefreshHeaderProps>>;
 
-export const RefreshLayout: React.ComponentClass<RefreshLayoutProps>;
+export const RefreshLayout: React.ComponentClass<PropsWithChildren<RefreshLayoutProps>>;
 
 export const RefreshState: RefreshState;
